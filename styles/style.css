@@ -1,0 +1,394 @@
+html {
+    scroll-behavior: smooth;
+}
+                                  
+                                        
+.maim_main {
+    box-sizing: border-box;
+    width: 1400px;
+    font-family: IBM Plex Mono, monospace;
+    margin-left: 260px;
+    letter-spacing: -0.03em; 
+    background-color: #ffffff;
+
+}
+
+.header-img {
+    position: relative;
+    width: 1400px;
+    height: 765px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(../pictures/kepa.png);
+}
+
+.header {
+    width: 1153px;
+    height: 55px;
+    padding: 35px 124px 0px 123px
+}
+
+.logo {
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 80px;
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    background: #1BFF07;
+}
+
+
+.nav {
+    float: right;
+}
+
+.nav_link_active {
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav_link_active:hover {
+    color: #1BFF07;
+    border-bottom: 1px solid #1BFF07;
+}
+
+.nav_link {
+    margin-left: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.about_me {
+    position: relative;
+    left: 125px;
+    bottom: -220px;
+    width: 430px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    color: rgb(239, 243, 255);
+}
+
+.ias {
+    width: 919px;
+    padding-left: 120px;
+    padding-top: 275px;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #1BFF07;
+}
+
+.main {
+    width: 1400px;
+    background-color: black;
+}
+
+.projects {
+    width: 1155px;
+    height: 2005px;
+    padding: 150px 125px 150px 120px;
+    background-color: #000000;
+}
+
+.sok {
+    width: 1048px;
+    height: 72px;
+    padding-bottom: 40px;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 71.5px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.img_sites {
+    
+    width: 1150px;
+    height: 550px;
+}
+.container {
+    position: relative;
+}
+
+.real {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+  
+}
+
+.gin {
+    
+    width: 401px;
+    height: 46px;
+    padding-bottom: 5px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color:#FFFFFF;
+}
+
+.bim {
+    width: 506px;
+    height: 39px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+
+
+.btn:hover {
+    color: #000000;
+    background-color: #1BFF07;
+}
+
+.btn {
+    display: block;
+    width: 411px;
+    height: 39px;
+    display: block;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    font-weight: 400;
+    border: 1px solid #1BFF07;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 56px 85px 58px 86px;
+    letter-spacing: -0.03em;
+    cursor: pointer;
+    color: #1BFF07;
+}
+
+.btn {
+    margin: 80px 695px 0px 1px;
+}
+
+
+.copetition {
+    width: 1048px;
+    height: 1377px;
+    background-color: black;
+}
+
+
+.kos {
+    width: 1048px;
+    padding-left: 123px;
+    padding-bottom: 50px;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 71.5px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.item_icon {
+    padding-left: 123px;
+    padding-bottom: 60px;
+
+}
+
+.icon {
+    width: 45px;
+    height: 44px;
+    left: 125px;
+    padding: 0px 0px 9.85px 2px;
+    border-radius: 10px 0px 0px 0px;
+    color: #1BFF07;
+}
+
+.name {
+    width: 1048px;
+    height: 46px;
+    left: 123px;
+    padding-bottom: 15px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #1BFF07;
+}
+.last_name {
+    width: 651px;
+    height: 92px;
+}
+.discription {
+    width: 778px;
+    left: 123px;
+    font-family: IBM Plex Mono;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28.6px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.item_icon:last-child {
+    padding-bottom: 150px;
+}
+
+.services {
+    width: 1400ppx;
+    background-color: black;
+    padding-left: 125px;
+}
+
+
+.fon {
+    width: 1150px;
+    height: 283px;
+    left: 125px;
+    border-radius: 30px;
+    background-color: #191C19;
+
+}
+
+.help {
+    width: 403px;
+    padding-bottom: 74px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.item_services {
+    padding-bottom: 74px;
+}
+
+.item_services:nth-last-child(2) {
+    padding-bottom: 137px;
+}
+
+.item_services:last-child {
+    padding-bottom: 150px;
+}
+
+.service_name {
+    font-size: 55px;
+    padding: 40px 40px 15px;
+    font-weight: 400;
+    line-height: 71.5px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #1BFF07;
+}
+
+.discription_help {
+    width: 749px;
+    padding-left: 40px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28.6px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.contacts {
+    width: 1400px;
+    height: 717px;
+    border-radius: 30px;
+    background-color: #191C19;
+}
+
+
+.book {
+    position: relative;
+}
+
+.books {
+    position: absolute;
+    right: 0px;
+    border-radius: 30px;
+}
+
+.comunication {
+    width: 310px;
+    height: 308px;
+    padding: 320px 238px 0 125px;
+}
+
+
+.for_call {
+    width: 201px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.my_data {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.footer {
+    width: 1400px;
+    padding-top: 150px;
+    background-color: #000000;
+
+}
+
+.fon_footer {
+    height: 230px;
+    border-radius: 30px 30px 0px 0px;
+    background-color: #FFFFFF;
+}
+
+.me {
+    padding-top: 76px;
+    padding-left: 125px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30.05px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #000000;
+
+}
+
+.save {
+    padding-top: 66px;
+    padding-left: 125px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    opacity: 50%;
+    color: #000000;
+
+}
